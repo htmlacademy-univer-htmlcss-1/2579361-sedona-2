@@ -7,11 +7,13 @@
   <body>
     <header class="header">
       <nav class="main-nav">
-        <img class="logo" src="#" alt="Логотип Седона" />
+        <a class="logo-link" href="index.html">
+          <img class="logo" src="/images" alt="Логотип Седона"
+        /></a>
         <ul class="site-navigation">
-          <li class="nav-item"><a href="index.html"></a>Главная</li>
-          <li class="nav-item"><a href="#"></a>О Седоне</li>
-          <li class="nav-item"><a href="catalog.html"></a>Гостиницы</li>
+          <li class="nav-item"><a href="index.html">Главная</a></li>
+          <li class="nav-item"><a href="index.html">О Седоне</a></li>
+          <li class="nav-item"><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
       <ul class="user-navigation">
@@ -32,7 +34,7 @@
             <a href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <form class="filter">
+        <form action="index.html" class="filter">
           <fieldset class="filter-fieldset">
             <legend class="filter-legend">Инфраструктура:</legend>
             <label><input name="pool" type="checkbox" checked />Бассейн</label>
@@ -44,10 +46,29 @@
 
           <fieldset class="filter-infastruct">
             <legend class="filter-legend">Тип жилья:</legend>
-            <label><input name="hotel" type="radio" checked />Гостиница</label>
-            <label><input name="motel" type="radio" checked />Мотель</label>
             <label
-              ><input name="apartment" type="radio" checked />Апартменты</label
+              ><input
+                name="apartment"
+                value="Гостиница"
+                type="radio"
+                checked
+              />Гостиница</label
+            >
+            <label
+              ><input
+                name="apartment"
+                value="Мотель"
+                type="radio"
+                checked
+              />Мотель</label
+            >
+            <label
+              ><input
+                name="apartment"
+                value="Апартаменты"
+                type="radio"
+                checked
+              />Апартменты</label
             >
           </fieldset>
 
@@ -56,16 +77,28 @@
             <label id="min-price" class="filter-label" for="min-price"
               >От</label
             >
-            <input name="min-price" type="number" min="0" value="0" />
+            <input
+              name="min-price"
+              id="min-price"
+              type="number"
+              min="0"
+              value="0"
+            />
             <label id="max-price" class="filter-label" for="max-price"
               >До</label
             >
-            <input name="max-price" type="number" min="0" value="9000" />
+            <input
+              name="max-price"
+              id="max-price"
+              type="number"
+              min="0"
+              value="9000"
+            />
           </fieldset>
 
           <div class="filter-buttons">
             <button class="filter-button" type="submit">Применить</button>
-            <button class="filter-button" type="submit">Сбросить</button>
+            <button class="filter-button" type="reset">Сбросить</button>
           </div>
         </form>
       </section>
@@ -74,7 +107,11 @@
         <h2 class="hotels-head">Найдено гостиниц: 38</h2>
 
         <div class="filter">
-          <label id="filter-label" class="filter-label" for="filter-label"
+          <label
+            name="filter-label"
+            id="filter-label"
+            class="filter-label"
+            for="filter-label"
             >Сортировать:</label
           >
           <select class="filter-select">
@@ -173,11 +210,11 @@
         <nav class="pagination">
           <ul class="pagination-list">
             <li class="pagination-item"><a href="#"></a>1</li>
-            <li class="pagination-item"><a href="#"></a>2</li>
-            <li class="pagination-item"><a href="#"></a>3</li>
-            <li class="pagination-item"><a href="#"></a>4</li>
+            <li class="pagination-item"><a href="#">2</a></li>
+            <li class="pagination-item"><a href="#">3</a></li>
+            <li class="pagination-item"><a href="#">4</a></li>
             <li class="pagination-item"><span>...</span></li>
-            <li class="pagination-item"><a href="#"></a>10</li>
+            <li class="pagination-item"><a>10</a></li>
           </ul>
         </nav>
       </section>
@@ -188,20 +225,37 @@
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <div class="subscription-form">
-          <input type="text" placeholder="Ваш e-mail" />
-          <a href="#">ПОДПИСАТЬСЯ</a>
+          <input
+            class="subscription-input"
+            type="email"
+            placeholder="Ваш e-mail"
+          />
+          <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
         </div>
       </form>
     </main>
     <footer class="footer">
       <ul class="footer-list">
-        <li class="footer-item"><img src="#" alt="Логотип VK" /></li>
-        <li class="footer-item"><img src="#" alt="Логотип Телеграм" /></li>
-        <li class="footer-item"><img src="#" alt="Логотип YouTube" /></li>
         <li class="footer-item">
-          <h2 class="footer-text">+7 (812) 812-12-12</h2>
+          <a href="https://vk.com/htmlacademy">VK</a>
+          <img src="images/" alt="Логотип VK" />
         </li>
-        <li class="footer-item"><img src="#" alt="Логотип HTML Academy" /></li>
+        <li class="footer-item">
+          <a href="https://t.me/htmlacademy">Telegram</a>
+          <img src="images/" alt="Логотип Телеграм" />
+        </li>
+        <li class="footer-item">
+          <a href="https://www.youtube.com/user/htmlacademyru">YouTube</a>
+          <img src="images/" alt="Логотип YouTube" />
+        </li>
+        <li class="footer-item">
+          <a class="number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </li>
+        <li class="footer-item">
+          <a href="https://htmlacademy.ru/">
+            <img src="/images" alt="Логотип HTML Academy" />
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
