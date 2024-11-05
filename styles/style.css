@@ -169,6 +169,17 @@ body {
   text-decoration: none;
 }
 
+.number:hover {
+  color: #756157;
+}
+
+.number:focus {
+  color: #756157;
+}
+
+.number:active {
+  color: rgba(117, 97, 87, 0.3);
+}
 .newsletter {
   background-image: url(../images/filter.png);
   width: 1200px;
