@@ -3,34 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy - Sedona</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="main-nav">
         <img class="logo" src="/images/main-logo.svg" alt="Логотип Седона" />
         <ul class="site-navigation">
-          <li><a class="nav-item" href="index.html">Главная</a></li>
-          <li><a class="nav-item" href="#"></a>О Седоне</li>
-          <li><a class="nav-item" href="catalog.html"></a>Гостиницы</li>
+          <li class="nav-link">
+            <a class="nav-item" href="index.html">Главная</a>
+          </li>
+          <li class="nav-link"><a class="nav-item" href="#">О Седоне</a></li>
+          <li class="nav-link">
+            <a class="nav-item" href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
       </nav>
-      <ul class="user-navigation">
-        <li>
+      <ul class="header-action">
+        <li class="header-action">
           <a class="nav-item-search" href="#">
             <img src="images/icons/search.svg" /></a
           >Поиск
         </li>
-        <li>
+        <li class="header-action">
           <a class="nav-item-liked" href="#">
             <img src="images/icons/heart.svg" /></a
           >Избранное
         </li>
-        <li><a class="nav-item-btn" href="#">Хочу Сюда!</a></li>
+        <li class="header-action">
+          <a class="nav-item-btn" href="#">Хочу Сюда!</a>
+        </li>
       </ul>
     </header>
     <main>
       <section class="hero">
-        <h1 class="logo-site"></h1>
+        <h1 class="hidden-head">Добро пожаловать в великолепную Седону!</h1>
         <img
           class="hero-image"
           src="/images/Group 36.svg"
@@ -53,7 +60,7 @@
         </header>
 
         <ul class="intro-list">
-          <li>
+          <li class="intro-item">
             <h3 class="intro-list-head">Настоящий городок</h3>
             <p class="intro-list-text">
               Седона — не аттракцион для туристов, там течёт своя жизнь
@@ -64,25 +71,25 @@
               alt="Фрагмент города"
             />
           </li>
-          <li>
+          <li class="intro-item">
             <h3 class="intro-list-head">Небольшая площадь</h3>
             <p class="intro-list-text">
               Все достопримечательности находятся очень близко
             </p>
           </li>
-          <li>
+          <li class="intro-item">
             <h3 class="intro-list-head">Красивая дорога</h3>
             <p class="intro-list-text">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
-          <li>
+          <li class="intro-item">
             <h3 class="intro-list-head">Мало туристов</h3>
             <p class="intro-list-text">
               Большинство едет в Гранд Каньон и толпится там
             </p>
           </li>
-          <li>
+          <li class="intro-item">
             <img src="/images/photo-2.jpg" alt="Каньон" />
             <h3 class="intro-list-head">Там есть мост дьявола</h3>
             <p class="intro-list-text">
@@ -140,25 +147,24 @@
         </p>
         <a class="advantages-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </section>
-      <form action="https://echo.htmlacademy.ru/" class="subscribe">
-        <img
-          class="subscribe-image"
-          src="/images/Subscribe.jpg"
-          alt="Задний фон"
-        />
-        <h2 class="subscribe-head">Подпишитесь на рассылку</h2>
-        <p class="subscribe-text">
-          Только полезная информация и никакого спама, честное бойскаутское!
-        </p>
-        <div class="subscribe-form">
-          <input
-            class="subscribe-input"
-            type="email"
-            placeholder="Ваш e-mail"
-          />
-          <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
-        </div>
-      </form>
+
+      <section class="newsletter">
+        <form action="https://echo.htmlacademy.ru/" class="subscribe">
+          <img class="subscribe-image" src="" alt="Задний фон" />
+          <h2 class="subscribe-head">Подпишитесь на рассылку</h2>
+          <p class="subscribe-text">
+            Только полезная информация и никакого спама, честное бойскаутское!
+          </p>
+          <div class="subscribe-form">
+            <input
+              class="subscribe-input"
+              type="email"
+              placeholder="Ваш e-mail"
+            />
+            <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="footer">
       <ul class="footer-list">

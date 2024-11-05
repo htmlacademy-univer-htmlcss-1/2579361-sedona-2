@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Sedona - Catalog</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -11,9 +12,13 @@
           <img class="logo" src="/images/main-logo.svg" alt="Логотип Седона"
         /></a>
         <ul class="site-navigation">
-          <li class="nav-item"><a href="index.html">Главная</a></li>
-          <li class="nav-item"><a href="#">О Седоне</a></li>
-          <li class="nav-item"><a href="catalog.html">Гостиницы</a></li>
+          <li class="nav-item">
+            <a class="link-nav" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item"><a class="link-nav" href="#">О Седоне</a></li>
+          <li class="nav-item">
+            <a class="link-nav" href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
       </nav>
       <ul class="user-navigation">
@@ -27,7 +32,9 @@
             <img src="images/icons/heart.svg" alt="Иконка избранное" /></a
           >Избранное
         </li>
-        <li class="btn"><a href="#">Хочу Сюда!</a></li>
+        <li class="header-action header-action-btn">
+          <a class="link-header" href="#">Хочу Сюда!</a>
+        </li>
       </ul>
     </header>
 
