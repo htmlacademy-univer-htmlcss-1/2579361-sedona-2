@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy - Sedona</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -22,12 +22,12 @@
       <ul class="header-action">
         <li class="header-action">
           <a class="nav-item-search" href="#">
-            <img src="images/icons/search.svg" /></a
+            <img src="/images/icons/search.svg" /></a
           >Поиск
         </li>
         <li class="header-action">
           <a class="nav-item-liked" href="#">
-            <img src="images/icons/heart.svg" /></a
+            <img src="/images/icons/heart.svg" /></a
           >Избранное
         </li>
         <li class="header-action">
@@ -43,7 +43,6 @@
           src="/images/Group 36.svg"
           alt="Изображение природы города"
         />
-        <img class="hero-text" alt="Приветственный текст" />
       </section>
       <section class="intro">
         <header class="intro-header">
@@ -95,7 +94,7 @@
         </ul>
       </section>
       <section class="advantages">
-        <h2 class="advantages-head">
+        <h2 class="advantages-head-catalog">
           Приезжайте в Седону отдохнуть в комфорте и уюте!
         </h2>
         <p class="advantages-text">
@@ -136,7 +135,7 @@
             </p>
           </li>
         </ul>
-        <h2 class="advantages-head">Заинтересовались?</h2>
+        <h2 class="advantages-head-catalog">Заинтересовались?</h2>
         <p class="advantages-text">
           Укажите предполагаемые даты поездки,и мы покажем вам лучшие
           предложения гостиниц в Седоне
@@ -146,7 +145,6 @@
 
       <section class="newsletter">
         <form action="https://echo.htmlacademy.ru/" class="subscribe">
-          <img class="subscribe-image" src="" alt="Задний фон" />
           <h2 class="subscribe-head">Подпишитесь на рассылку</h2>
           <p class="subscribe-text">
             Только полезная информация и никакого спама, честное бойскаутское!
@@ -156,6 +154,7 @@
               class="subscribe-input"
               type="email"
               placeholder="Ваш e-mail"
+              required
             />
             <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
           </div>
