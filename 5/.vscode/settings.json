@@ -1,0 +1,33 @@
+{
+  "editor.renderWhitespace": "selection",
+  "files.exclude": {
+    "*:Zone.Identifier": true,
+    "node_modules/": true
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "css.lint.compatibleVendorPrefixes": "warning",
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.idSelector": "error",
+  "css.lint.important": "error",
+  "css.lint.importStatement": "warning",
+  "css.lint.universalSelector": "warning",
+  "css.lint.unknownVendorSpecificProperties": "warning",
+  "css.lint.zeroUnits": "error",
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.useTabs": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
+}
