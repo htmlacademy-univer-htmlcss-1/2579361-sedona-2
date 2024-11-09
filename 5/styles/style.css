@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   fonbt-weight: 400;
-  src: url("./../fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -100,7 +100,7 @@ body {
   line-height: 21px;
 }
 
-.advantages-head {
+.advantages-head-catalog {
   color: #000;
   font-size: 30px;
   font-style: normal;
@@ -139,14 +139,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-}
-
-.advantages-head {
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px;
-  text-transform: uppercase;
 }
 
 .advantages-text {
