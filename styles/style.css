@@ -36,15 +36,47 @@ body {
 }
 .hidden-head {
   display: none;
+  margin: 51px auto 82px auto;
+}
+
+.intro-header {
+  display: flex;
+  width: 1200px;
+  padding: 69px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.intro-head {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  width: 620px;
+  height: 72px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333;
+  margin: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  width: 1200px;
+  width: 1060px;
+  height: 64px;
   margin: 0 auto;
+  padding: 0 70px;
+  z-index: 5;
 }
 
 .main-nav {
@@ -79,13 +111,13 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
+  gap: 20px;
 }
 
 .header-action {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  text-transform: uppercase;
 }
 
 .header-action-btn {
@@ -94,9 +126,11 @@ body {
 }
 
 .hero {
+  display: flex;
   background-image: url(../images/sedona_background.jpg);
   width: 1200px;
   height: 485px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-image {
@@ -148,11 +182,30 @@ body {
   line-height: 21px;
 }
 
+.advantages {
+  display: flex;
+  width: 1200px;
+  padding: 64px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .advantages-list {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.advantages-item {
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 80px 85px;
 }
 
 .advantages-head-catalog {
@@ -162,6 +215,10 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
+  width: 505px;
+  height: 72px;
+  text-align: center;
 }
 
 .advantages-text {
@@ -170,6 +227,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin: 0;
 }
 
 .advantages-item:nth-child(1) {
@@ -186,6 +244,7 @@ body {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .advantages-item-text {
@@ -194,6 +253,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  margin: 0;
+  text-align: center;
 }
 
 .advantages-text {
@@ -256,8 +317,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
   margin: 0 auto;
+  width: 1060px;
+  padding: 40px 70px 30px 70px;
 }
 
 .footer-list {
@@ -265,6 +327,10 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 142px;
+  height: 40px;
+  align-items: center;
+  gap: 27px;
 }
 
 .number {
