@@ -185,6 +185,8 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  background-color: #000;
+  background-image: url(../images/filter.png);
 }
 
 .subscribe-text {
@@ -217,6 +219,8 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 78px;
+  background-color: #000;
+  background-image: url(../images/filter.png);
 }
 
 .breadcrumbs-link {
