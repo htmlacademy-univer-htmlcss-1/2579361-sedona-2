@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  fonbt-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #333;
+}
+
+.hidden-head {
+  display: none;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-action {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.header-action-btn {
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+.hero {
+  background-image: url(../images/sedona_background.jpg);
+  width: 1200px;
+  height: 485px;
+}
+
+.intro-head {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333;
+}
+
+.intro-item:nth-child(1) {
+  background-color: #82b3d3;
+  color: #fff;
+}
+
+.intro-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.intro-item:nth-child(5) {
+  background-color: #82b3d3;
+  color: #fff;
+}
+
+.about__features_title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.intro-list-text {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.advantages-head-catalog {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.advantages-item:nth-child(1) {
+  background-color: rgba(131, 179, 211, 0.15);
+}
+
+.advantages-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.15);
+}
+
+.advantages-item-head {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item-text {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.advantages-text {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.advantages-button {
+  border-radius: 4px;
+  background-color: #756157;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.number:hover {
+  color: #756157;
+}
+
+.number:focus {
+  color: #756157;
+}
+
+.number:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+.newsletter {
+  background-image: url(../images/filter.png);
+  width: 1200px;
+  height: 414px;
+}
+
+.subscribe-head {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #000;
+  background-image: url(../images/filter.png);
+}
+
+.subscribe-text {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.number {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advantages-catalog {
+  background-image: url(../images/filter.png);
+  width: 1200px;
+  height: 412px;
+}
+
+.advantages-head {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  background-color: #000;
+  background-image: url(../images/filter.png);
+}
+
+.breadcrumbs-link {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.filter-fieldset {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.filter-legend {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.filter-legend {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
