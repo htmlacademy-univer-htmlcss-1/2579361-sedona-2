@@ -190,12 +190,11 @@ body {
 }
 
 .intro-list-head {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  text-transform: uppercase;
-  width: 175px;
-  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 103px 85px;
+  gap: 60px;
 }
 
 .advantages {
@@ -360,6 +359,25 @@ body {
 }
 
 .advantages-catalog {
+  width: 1060px;
+  height: 307px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 35px 70px 70px 70px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.advantages-head {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  margin: 0;
+}
+
+.advantages-catalog {
   background-image: url(../images/filter.png);
   width: 1200px;
   height: 412px;
@@ -375,6 +393,14 @@ body {
   background-image: url(../images/filter.png);
 }
 
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
 .breadcrumbs-link {
   color: #fff;
   font-size: 16px;
@@ -384,12 +410,32 @@ body {
   text-decoration: none;
 }
 
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
 .filter-fieldset {
-  color: #fff;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.filter-infastruct {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 70px;
+}
+
+.filter-price {
+  margin: 0 0 0 140px;
+}
+
+.filter-button {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0 0 0 70px;
 }
 
 .filter-legend {
