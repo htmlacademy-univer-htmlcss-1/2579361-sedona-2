@@ -484,3 +484,62 @@ body {
   line-height: 21px;
   margin: 0;
 }
+
+.catalog-header {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.sorting {
+  display: flex;
+  align-items: center;
+}
+
+.sorting-list {
+  display: flex;
+  list-style: none;
+}
+
+.pagination-list {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination-item {
+  background-color: #82b3d3;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+}
+
+.pagination-item-first {
+  background-color: #f2f2f2;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pagination-link-first {
+  color: #000;
+}
+
+.pagination-points {
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}

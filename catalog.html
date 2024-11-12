@@ -135,26 +135,26 @@
               <option value="expensive">Сначала дорогие</option>
             </select>
           </div>
-        </div>
 
-        <div class="sorting">
-          <ul class="sorting-list">
-            <li class="sorting-item">
-              <button class="sorting-button" type="button">
-                <img src="images/Vector-1.svg" alt="Показать сеткой" />
-              </button>
-            </li>
-            <li class="sorting-item">
-              <button class="sorting-button" type="button">
-                <img src="images/Vector-2.svg" alt="Показать по одному" />
-              </button>
-            </li>
-            <li class="sorting-item">
-              <button class="sorting-button" type="button">
-                <img src="images/Vector-3.svg" alt="Показать списком" />
-              </button>
-            </li>
-          </ul>
+          <div class="sorting">
+            <ul class="sorting-list">
+              <li class="sorting-item">
+                <button class="sorting-button" type="button">
+                  <img src="images/Vector-1.svg" alt="Показать сеткой" />
+                </button>
+              </li>
+              <li class="sorting-item">
+                <button class="sorting-button" type="button">
+                  <img src="images/Vector-2.svg" alt="Показать по одному" />
+                </button>
+              </li>
+              <li class="sorting-item">
+                <button class="sorting-button" type="button">
+                  <img src="images/Vector-3.svg" alt="Показать списком" />
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <ul class="hotels-list">
@@ -238,12 +238,22 @@
 
         <nav class="pagination">
           <ul class="pagination-list">
-            <li class="pagination-item"><a href="#"></a>1</li>
-            <li class="pagination-item"><a href="#">2</a></li>
-            <li class="pagination-item"><a href="#">3</a></li>
-            <li class="pagination-item"><a href="#">4</a></li>
-            <li class="pagination-item"><span>...</span></li>
-            <li class="pagination-item"><a>10</a></li>
+            <li class="pagination-item pagination-item-first">
+              <a class="pagination-link pagination-link-first" href="#"></a>1
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">4</a>
+            </li>
+            <li class="pagination-item">
+              <span class="pagination-points">...</span>
+            </li>
+            <li class="pagination-item"><a class="pagination-link">10</a></li>
           </ul>
         </nav>
       </section>
