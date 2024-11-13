@@ -1,0 +1,152 @@
+.visually-hidden {
+  display: none;
+}
+
+.nav__link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn {
+  background-color: #756157;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(../images/sedona_background.jpg);
+  width: 1200px;
+  height: 485px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header__about_title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+
+.header__advantages_subtitle {
+  color: #333;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.advantages__option:nth-child(1) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages__option:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.newsletter {
+  background-image: url(../images/subscribe_background.jpg);
+  width: 1200px;
+  height: 414px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter__title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+}
+
+.newsletter__catalog {
+  color: #000;
+}
+
+.footer__contacts_link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.hotels {
+  background-image: url(../images/catalog/catalog_background.jpg);
+  width: 1200px;
+  height: 412px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+  line-height: 24px;
+}
+
+.filter__infrastructure label {
+  color: var(--basic-white, #fff);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.filter__house_legend {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.filter__button_apply {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: #82b3d3;
+}
+
+.filter__button_reset {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.favorites__button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #82b3d3;
+}
+
+.catalog__hotel_raiting {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.btn__active {
+  background-color: #7db54f;
+}
+
+.pagination__item {
+  color: #000;
+}
+
+.pagination__points {
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
