@@ -437,7 +437,25 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
+.catalog__header {
+  display: flex;
+  align-items: center;
+}
 
+.sort {
+  display: flex;
+  align-items: center;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+}
+
+.view__list {
+  display: flex;
+  list-style: none;
+}
 .catalog__list {
   display: flex;
   flex-wrap: wrap;
@@ -525,6 +543,12 @@ body {
 .btn__active {
   background-color: #7db54f;
 }
+.pagination__items {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
 .pagination__item {
   background-color: #82b3d3;
   font-size: 20px;
@@ -532,6 +556,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   border-radius: 4px;
+  width: 60px;
+  height: 60px;
 }
 
 .pagination__item-first {
@@ -548,6 +574,7 @@ body {
 }
 
 .pagination__points {
+  background-color: #fff;
   color: #000;
   font-size: 22px;
   font-weight: 400;
