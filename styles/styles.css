@@ -37,11 +37,9 @@ body {
   line-height: 20px;
   text-transform: uppercase;
 }
-.header__action_bg {
+.btn {
   background-color: #756157;
   border-radius: 4px;
-}
-.link_header {
   text-decoration: none;
   color: #fff;
 }
