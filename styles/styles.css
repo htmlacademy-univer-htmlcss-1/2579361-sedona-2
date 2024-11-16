@@ -167,6 +167,22 @@ body {
   font-weight: 400;
   line-height: 26px;
 }
+
+.newsletter__button {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  background-color: #82b3d3;
+}
+
+.newsletter__catalog-bg {
+  background-image: none;
+}
+
+.newsletter__catalog {
+  color: #000;
+}
 .footer__contacts_link {
   color: #000;
   font-size: 40px;
@@ -219,6 +235,13 @@ body {
   line-height: 24px;
 }
 
+.filter__infrastructure label {
+  color: var(--basic-white, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
 .filter__house_legend {
   color: #fff;
   font-size: 20px;
@@ -226,7 +249,13 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
-
+.filter__house label {
+  color: var(--basic-white, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
 .filter__price_legend {
   color: #fff;
   font-size: 20px;
@@ -311,4 +340,34 @@ body {
 
 .btn__active {
   background-color: #7db54f;
+}
+.pagination__item {
+  background-color: #82b3d3;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.pagination__item-first {
+  background-color: #f2f2f2;
+}
+
+.pagination__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pagination__link-first {
+  color: #000;
+}
+
+.pagination__points {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
