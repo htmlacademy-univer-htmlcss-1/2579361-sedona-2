@@ -136,6 +136,8 @@ body {
 }
 
 .about__features {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -164,10 +166,7 @@ body {
 .about__feature_bg {
   background-color: rgba(131, 179, 211, 0.12);
 }
-.about__container {
-  display: flex;
-  list-style: none;
-}
+
 .about_subtitle {
   color: #333;
 }
