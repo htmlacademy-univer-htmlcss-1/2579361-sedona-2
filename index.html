@@ -8,13 +8,15 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img
-          class="nav__logo"
-          src="./images/logo_sedona.svg"
-          width="140"
-          height="70"
-          alt="Лого блока с навигациией"
-        />
+        <a class="nav__logo_link" href="./index.html">
+          <img
+            class="nav__logo"
+            src="./images/logo_sedona.svg"
+            width="140"
+            height="70"
+            alt="Лого блока с навигациией"
+          />
+        </a>
         <ul class="nav__menu">
           <li class="nav__link">
             <a class="link_nav" href="index.html">Главная</a>
@@ -45,7 +47,9 @@
               height="20"
           /></a>
         </li>
-        <li class="header__action"><a class="btn" href="#">Хочу сюда!</a></li>
+        <li class="header__action">
+          <a class="btn header__btn" href="#">Хочу сюда!</a>
+        </li>
       </ul>
     </header>
 
@@ -151,7 +155,7 @@
             />
             <h3 class="advantages__option_title">Жильё</h3>
             <p class="advantages__option_subtitle">
-              Рекомендуем пожить в настоящем мотеле, всё как в кино!
+              Рекомендуем пожить в настоящем мотеле, <br />всё как в кино!
             </p>
           </li>
           <li class="advantages__option">
@@ -164,7 +168,8 @@
             />
             <h3 class="advantages__option_title">Еда</h3>
             <p class="advantages__option_subtitle">
-              Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
+              Всегда заказывайте <br />
+              топовый фирменный бургер, <br />вы не разочаруетесь!
             </p>
           </li>
           <li class="advantages__option">
@@ -177,7 +182,8 @@
             />
             <h3 class="advantages__option_title">Сувениры</h3>
             <p class="advantages__option_subtitle">
-              Не только китайского, но и настоящего местного производства!
+              Не только китайского,<br />
+              но и настоящего местного производства!
             </p>
           </li>
         </ul>
@@ -186,7 +192,7 @@
       <section class="search">
         <h2 class="search__title">Заинтересовались?</h2>
         <p class="search__subtitle">
-          Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+          Укажите предполагаемые даты поездки, <br />и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
         <a class="search__button btn" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
@@ -195,7 +201,8 @@
       <section class="newsletter">
         <h2 class="newsletter__title">Подпишитесь на рассылку</h2>
         <p class="newsletter__subtitle">
-          Только полезная информация и никакого спама, честное бойскаутское!
+          Только полезная информация и никакого спама, <br />честное
+          бойскаутское!
         </p>
         <form class="newsletter__form" action="https://echo.htmlacademy.ru/">
           <input name="email" type="email" placeholder="Ваш e-mail" />

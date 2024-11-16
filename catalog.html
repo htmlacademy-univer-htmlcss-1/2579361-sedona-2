@@ -8,13 +8,15 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img
-          class="nav__logo"
-          src="./images/logo_sedona.svg"
-          width="140"
-          height="70"
-          alt="Лого блока с навигациией"
-        />
+        <a class="nav__logo_link" href="./index.html">
+          <img
+            class="nav__logo"
+            src="./images/logo_sedona.svg"
+            width="140"
+            height="70"
+            alt="Лого блока с навигациией"
+          />
+        </a>
         <ul class="nav__menu">
           <li class="nav__link">
             <a class="link_nav" href="index.html">Главная</a>
@@ -45,7 +47,9 @@
               height="20"
           /></a>
         </li>
-        <li class="header__action"><a class="btn" href="#">Хочу сюда!</a></li>
+        <li class="header__action">
+          <a class="btn header__btn" href="#">Хочу сюда!</a>
+        </li>
       </ul>
     </header>
 
@@ -138,52 +142,54 @@
       </section>
 
       <section class="catalog">
-        <div class="catalog__header">
+        <div class="header catalog__header">
           <h2 class="catalog__title">Найдено гостиниц: 38</h2>
 
-          <div class="sort">
-            <label class="sort__label visually-hidden" for="sort"
-              >Сортировать:</label
-            >
-            <select class="sort__select" id="sort">
-              <option value="cheap">Сначала дешевые</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
-          </div>
+          <div class="catalog__block">
+            <div class="sort">
+              <label class="sort__label visually-hidden" for="sort"
+                >Сортировать:</label
+              >
+              <select class="sort__select" id="sort">
+                <option value="cheap">Сначала дешевые</option>
+                <option value="expensive">Сначала дорогие</option>
+              </select>
+            </div>
 
-          <div class="view">
-            <ul class="view__list">
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_cards.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать сеткой"
-                  />
-                </button>
-              </li>
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_card.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать по одному"
-                  />
-                </button>
-              </li>
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_view.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать списком"
-                  />
-                </button>
-              </li>
-            </ul>
+            <div class="view">
+              <ul class="view__list">
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_cards.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать сеткой"
+                    />
+                  </button>
+                </li>
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_card.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать по одному"
+                    />
+                  </button>
+                </li>
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_view.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать списком"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -283,7 +289,7 @@
             <li class="pagination__item">
               <a class="pagination__link" href="#">4</a>
             </li>
-            <li class="pagination__item">
+            <li class="pagination__item pagination__item--points">
               <span class="pagination__points">...</span>
             </li>
             <li class="pagination__item">
