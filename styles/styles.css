@@ -24,6 +24,8 @@ body {
 }
 
 .main__container {
+  width: 1200px;
+  margin: 0 auto;
   flex-grow: 1;
 }
 .visually-hidden {
@@ -88,6 +90,11 @@ body {
   height: 485px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.hero__wellcome {
+  display: block;
+  margin: 0 auto;
+}
 .header__about_title {
   font-size: 30px;
   font-weight: 700;
@@ -100,6 +107,7 @@ body {
   line-height: 26px;
   color: #333;
 }
+
 .about__feature_highlight {
   background-color: #82b3d3;
   color: #fff;
@@ -138,6 +146,13 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.advantages__options {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .advantages__option:nth-child(1) {
   background-color: rgba(131, 179, 211, 0.12);
@@ -212,6 +227,21 @@ body {
 
 .newsletter__catalog {
   color: #000;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__socials_list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .footer__contacts_link {
   color: #000;
