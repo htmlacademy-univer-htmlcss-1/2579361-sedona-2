@@ -127,10 +127,27 @@ body {
   margin: 0;
 }
 
+.about__features {
+  margin: 0;
+  padding: 0;
+}
+
+.about__feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .about__feature_highlight {
   background-color: #82b3d3;
   color: #fff;
   display: flex;
+}
+
+.about__feature_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 103px 85px;
 }
 .about__feature_transparent {
   background-color: rgba(131, 179, 211, 0.2);
@@ -152,6 +169,8 @@ body {
   text-transform: uppercase;
   width: 175px;
   height: 56px;
+  margin: 0;
+  text-align: center;
 }
 .about__features_subtitle {
   color: #333;
@@ -160,7 +179,9 @@ body {
   line-height: 21px;
   text-align: center;
   width: 230px;
-  height: 42px;
+
+  height: 63px;
+  margin: 0;
 }
 
 .header__advantages {
