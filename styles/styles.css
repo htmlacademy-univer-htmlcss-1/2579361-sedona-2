@@ -437,6 +437,23 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
+
+.catalog__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  gap: 16px;
+  padding: 20px;
+}
 .catalog__title {
   font-size: 30px;
   font-weight: 700;
@@ -470,12 +487,14 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  margin: 0;
 }
 
 .catalog__hotel_price {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+  margin: 0;
 }
 
 .details__button {
