@@ -1,152 +1,226 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #242424;
+}
 .visually-hidden {
   display: none;
 }
-
 .nav__link {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
 }
-
-.btn {
-  background-color: #756157;
+.link_nav {
   text-decoration: none;
-  color: #fff;
-  border-radius: 4px;
+  color: #000;
+}
+.header__action {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
   text-transform: uppercase;
 }
-
+.header__action_bg {
+  background-color: #756157;
+  border-radius: 4px;
+}
+.link_header {
+  text-decoration: none;
+  color: #fff;
+}
 .hero {
   background-image: url(../images/sedona_background.jpg);
   width: 1200px;
   height: 485px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
-
 .header__about_title {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
 }
-
-
-.header__advantages_subtitle {
-  color: #333;
+.header__about_subtitle {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
+  color: #333;
 }
-
-.advantages__option:nth-child(1) {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages__option:nth-child(3) {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.newsletter {
-  background-image: url(../images/subscribe_background.jpg);
-  width: 1200px;
-  height: 414px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.newsletter__title {
+.about__feature:nth-child(1) {
+  background-color: #82b3d3;
   color: #fff;
+}
+.about__feature:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+.about__feature:nth-child(5) {
+  background-color: #82b3d3;
+  color: #fff;
+}
+.about__features_title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.about__features_subtitle {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.header__advantages_title {
+  color: #000;
   font-size: 30px;
+  font-style: normal;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
 }
-
+.header__advantages_subtitle {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
-
-.newsletter__catalog {
+.advantages__option:nth-child(1) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages__option:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages__option_title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages__option_subtitle {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.search__title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.search__subtitle {
+  color: #333;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.search__button {
+  border-radius: 4px;
+  background-color: #756157;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.newsletter {
+  background-image: url(../images/subscribe_background.jpg);
+  width: 1200px;
+  height: 414px;
+}
+.newsletter__title {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.newsletter__subtitle {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer__contacts_link {
   color: #000;
-}
-
-.footer__contacts_link:active {
-  color: rgba(117, 97, 87, 0.3);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .hotels {
   background-image: url(../images/catalog/catalog_background.jpg);
   width: 1200px;
   height: 412px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
-  line-height: 24px;
+.hotels__title {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
 }
 
-.filter__infrastructure label {
-  color: var(--basic-white, #fff);
-  font-size: 18px;
+.breadcrumbs__link {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.filter__infrastructure_legend {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .filter__house_legend {
   color: #fff;
   font-size: 20px;
+  font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
 
-  font-weight: 700;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-
-.filter__button_apply {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  border-radius: 4px;
-  background-color: #82b3d3;
-}
-
-.filter__button_reset {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  background-color: transparent;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
-.favorites__button {
+.filter__price_legend {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 20px;
-  background-color: #82b3d3;
-}
-
-.catalog__hotel_raiting {
-  color: #333;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #f2f2f2;
-}
-
-.btn__active {
-  background-color: #7db54f;
-}
-
-.pagination__item {
-  color: #000;
-}
-
-.pagination__points {
-  color: #000;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 26px;
+  line-height: 24px;
 }
