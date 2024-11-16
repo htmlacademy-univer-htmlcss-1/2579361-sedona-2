@@ -178,6 +178,17 @@ body {
   text-decoration: none;
 }
 
+.footer__contacts_link:hover {
+  color: #756157;
+}
+
+.footer__contacts_link:focus {
+  color: #756157;
+}
+
+.footer__contacts_link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
 .hotels {
   background-image: url(../images/catalog/catalog_background.jpg);
   width: 1200px;
