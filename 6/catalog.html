@@ -9,13 +9,15 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img
-          class="nav__logo"
-          src="./images/logo_sedona.svg"
-          width="140"
-          height="70"
-          alt="Лого блока с навигациией"
-        />
+        <a class="nav__logo_link" href="./index.html">
+          <img
+            class="nav__logo"
+            src="./images/logo_sedona.svg"
+            width="140"
+            height="70"
+            alt="Лого блока с навигациией"
+          />
+        </a>
         <ul class="nav__menu">
           <li class="nav__link">
             <a class="link_nav" href="index.html">Главная</a>
@@ -46,7 +48,9 @@
               height="20"
           /></a>
         </li>
-        <li class="header__action"><a class="btn" href="#">Хочу сюда!</a></li>
+        <li class="header__action">
+          <a class="btn header__btn" href="#">Хочу сюда!</a>
+        </li>
       </ul>
     </header>
 
@@ -139,52 +143,54 @@
       </section>
 
       <section class="catalog">
-        <div class="catalog__header">
+        <div class="header catalog__header">
           <h2 class="catalog__title">Найдено гостиниц: 38</h2>
 
-          <div class="sort">
-            <label class="sort__label visually-hidden" for="sort"
-              >Сортировать:</label
-            >
-            <select class="sort__select" id="sort">
-              <option value="cheap">Сначала дешевые</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
-          </div>
+          <div class="catalog__block">
+            <div class="sort">
+              <label class="sort__label visually-hidden" for="sort"
+                >Сортировать:</label
+              >
+              <select class="sort__select" id="sort">
+                <option value="cheap">Сначала дешевые</option>
+                <option value="expensive">Сначала дорогие</option>
+              </select>
+            </div>
 
-          <div class="view">
-            <ul class="view__list">
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_cards.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать сеткой"
-                  />
-                </button>
-              </li>
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_card.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать по одному"
-                  />
-                </button>
-              </li>
-              <li class="view__list_item">
-                <button type="button" class="view__list_button">
-                  <img
-                    src="./images/icons/icon_view.svg"
-                    width="16"
-                    height="14"
-                    alt="Показать списком"
-                  />
-                </button>
-              </li>
-            </ul>
+            <div class="view">
+              <ul class="view__list">
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_cards.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать сеткой"
+                    />
+                  </button>
+                </li>
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_card.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать по одному"
+                    />
+                  </button>
+                </li>
+                <li class="view__list_item">
+                  <button type="button" class="view__list_button">
+                    <img
+                      src="./images/icons/icon_view.svg"
+                      width="16"
+                      height="14"
+                      alt="Показать списком"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -198,7 +204,10 @@
               alt="Картинка отеля Amara Resort & Spa"
             />
             <h3 class="catalog__hotel_name">Amara Resort & Spa</h3>
-            <p class="catalog__hotel_price">Гостиница | От 4000 ₽</p>
+            <div class="catalog__hotel_info">
+              <p class="catalog__hotel_type">Гостиница</p>
+              <p class="catalog__hotel_price">От 4000 ₽</p>
+            </div>
             <div class="buttons__card">
               <a href="#" class="btn details__button">Подробнее</a>
               <button class="btn favorites__button" type="button">
@@ -218,7 +227,10 @@
               alt="Картинка отеля Villas at Poco Diablo"
             />
             <h3 class="catalog__hotel_name">Villas at Poco Diablo</h3>
-            <p class="catalog__hotel_price">Гостиница | От 5000 ₽</p>
+            <div class="catalog__hotel_info">
+              <p class="catalog__hotel_type">Гостиница</p>
+              <p class="catalog__hotel_price">От 5000 ₽</p>
+            </div>
             <div class="buttons__card">
               <a href="#" class="btn details__button">Подробнее</a>
               <button class="btn favorites__button btn__active" type="button">
@@ -238,7 +250,10 @@
               alt="Картинка отеля Desert Quail Inn"
             />
             <h3 class="catalog__hotel_name">Desert Quail Inn</h3>
-            <p class="catalog__hotel_price">Гостиница | От 2500 ₽</p>
+            <div class="catalog__hotel_info">
+              <p class="catalog__hotel_type">Гостиница</p>
+              <p class="catalog__hotel_price">От 2500 ₽</p>
+            </div>
             <div class="buttons__card">
               <a href="#" class="btn details__button">Подробнее</a>
               <button class="btn favorites__button" type="button">
@@ -258,7 +273,10 @@
               alt="Картинка отеля GreenTree Inn"
             />
             <h3 class="catalog__hotel_name">GreenTree Inn</h3>
-            <p class="catalog__hotel_price">Гостиница | От 1500 ₽</p>
+            <div class="catalog__hotel_info">
+              <p class="catalog__hotel_type">Гостиница</p>
+              <p class="catalog__hotel_price">От 1500 ₽</p>
+            </div>
             <div class="buttons__card">
               <a href="#" class="btn details__button">Подробнее</a>
               <button class="btn favorites__button" type="button">
@@ -284,7 +302,7 @@
             <li class="pagination__item">
               <a class="pagination__link" href="#">4</a>
             </li>
-            <li class="pagination__item">
+            <li class="pagination__item pagination__item--points">
               <span class="pagination__points">...</span>
             </li>
             <li class="pagination__item">
