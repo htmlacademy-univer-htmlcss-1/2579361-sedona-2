@@ -507,6 +507,15 @@ body {
 .footer__logo_image {
   justify-self: end;
 }
+
+.footer__logo_image:hover,
+.footer__logo_image:focus {
+  color: #756157;
+}
+
+.footer__logo_image:active {
+  color: #7561574d;
+}
 .hotels {
   background-image: url(../images/catalog/catalog_background.jpg);
   width: 1060px;
