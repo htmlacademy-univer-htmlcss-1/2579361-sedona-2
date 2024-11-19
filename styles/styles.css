@@ -778,6 +778,8 @@ body {
   text-align: right;
   align-self: center;
   justify-self: start;
+  gap: 6px;
+  display: flex;
 }
 .catalog__title {
   font-size: 30px;
