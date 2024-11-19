@@ -555,7 +555,17 @@ body {
   line-height: 21px;
   text-decoration: none;
 }
+.breadcrumbs__link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
 
+.breadcrumbs__link:focus {
+  color: #fff;
+}
+
+.breadcrumbs__link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
 .filter__forms {
   display: flex;
   justify-content: space-between;
