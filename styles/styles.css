@@ -145,11 +145,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 160px;
+
   box-sizing: border-box;
   white-space: nowrap;
   margin: 0 auto;
-  padding: 8px 50px;
+  padding: 8px 34px;
 }
 
 .header__btn:hover {
@@ -375,7 +375,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 375px;
   box-sizing: border-box;
   white-space: nowrap;
   margin: 0 auto;
@@ -440,8 +439,6 @@ body {
   padding: 8px 50px;
   justify-content: center;
   align-items: center;
-  width: 232px;
-  height: 52px;
   border: 1px solid #82b3d3;
   font-size: 20px;
   font-weight: 700;
