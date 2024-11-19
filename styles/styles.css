@@ -109,7 +109,7 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
   margin: 0;
   padding: 14px 0 14px 0;
 }
@@ -117,6 +117,20 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
+}
+
+.header__action:nth-child(1),
+.header__action:nth-child(2) {
+  width: 30px;
+  height: 36px;
+}
+
+.header__action a:not(.header__btn) {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .btn {
   background-color: #756157;
