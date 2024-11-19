@@ -477,8 +477,9 @@ body {
   padding: 0;
   margin: 0;
   align-items: center;
-  gap: 27px;
   flex-wrap: wrap;
+  width: 142px;
+  height: 40px;
 }
 .footer__socials_list a:hover img {
   opacity: 0.8;
@@ -490,6 +491,20 @@ body {
 
 .footer__socials_list a:active img {
   opacity: 0.6;
+}
+
+.footer__social_item {
+  width: 47px;
+  height: 40px;
+  margin: 0;
+}
+
+.footer__social_item a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .footer__contacts_link {
   font-family: "PT Sans";
