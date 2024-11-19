@@ -814,8 +814,15 @@ body {
   margin: 0;
   align-self: center;
   justify-self: start;
-  gap: 6px;
   display: flex;
+}
+.star {
+  width: 18px;
+  height: 17px;
+  background-image: url("../images/catalog/catalog_star.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
 }
 .catalog__title {
   font-size: 30px;
