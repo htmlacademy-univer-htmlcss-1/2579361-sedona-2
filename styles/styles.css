@@ -649,10 +649,28 @@ body {
 
 .view__list {
   display: flex;
-  gap: 20px;
-  padding: 40px 0 40px 0;
   list-style: none;
-  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+.view__list_button {
+  display: flex;
+  padding: 14px 12px;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.view__list_button:hover {
+  border: 2px solid #000;
+}
+
+.view__list_button:focus {
+  border: 2px solid #68a2ca;
+}
+
+.view__list_button:active {
+  border: 2px solid #000;
 }
 .catalog__list {
   position: relative;
