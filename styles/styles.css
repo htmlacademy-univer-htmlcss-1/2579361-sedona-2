@@ -902,11 +902,26 @@ body {
   width: 60px;
   height: 60px;
 }
+.pagination__item:hover {
+  background-color: #68a2ca;
+}
 
+.pagination__item:focus {
+  background-color: #68a2ca;
+}
+
+.pagination__item:active,
+.pagination__link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
 .pagination__item-first {
   background-color: #f2f2f2;
 }
-
+.pagination__item-first:hover,
+.pagination__item-first:focus,
+.pagination__item-first:active {
+  background-color: #f2f2f2;
+}
 .pagination__link {
   display: flex;
   justify-content: center;
@@ -923,7 +938,9 @@ body {
 .pagination__link-first {
   color: #000;
 }
-
+.pagination__link-first:active {
+  color: #000;
+}
 .pagination__points {
   background-color: #fff;
   color: #000;
