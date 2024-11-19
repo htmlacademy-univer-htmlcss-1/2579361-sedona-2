@@ -454,6 +454,17 @@ body {
   gap: 27px;
   flex-wrap: wrap;
 }
+.footer__socials_list a:hover img {
+  opacity: 0.8;
+}
+
+.footer__socials_list a:focus img {
+  opacity: 0.6;
+}
+
+.footer__socials_list a:active img {
+  opacity: 0.6;
+}
 .footer__contacts_link {
   font-family: "PT Sans";
   font-style: normal;
