@@ -837,8 +837,6 @@ body {
   padding: 8px 50px;
   justify-content: center;
   align-items: center;
-  height: 36px;
-  width: 191px;
   border: 1px solid #82b3d3;
   cursor: pointer;
   font-size: 16px;
@@ -846,6 +844,8 @@ body {
   line-height: 20px;
   border-radius: 4px;
   background-color: #82b3d3;
+  box-sizing: border-box;
+  height: 36px;
 }
 .filter__button_apply:hover {
   background-color: #68a2ca;
@@ -874,6 +874,8 @@ body {
   font-weight: 700;
   line-height: 20px;
   background-color: transparent;
+  box-sizing: border-box;
+  height: 36px;
 }
 
 .filter__button_reset:hover {
