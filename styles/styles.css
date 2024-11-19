@@ -645,14 +645,23 @@ body {
   margin: 0;
 }
 .catalog__list {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 20px;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 0 0;
   list-style: none;
   margin: 0;
 }
-
+.catalog__list::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e6e6e6;
+}
 .catalog__item {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
@@ -889,6 +898,7 @@ body {
   display: flex;
   padding: 40px 0 0 0;
   background-color: #fff;
+  margin-top: 40px;
 }
 .pagination__items {
   display: flex;
