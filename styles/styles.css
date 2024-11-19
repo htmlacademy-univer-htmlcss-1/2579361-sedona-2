@@ -902,16 +902,24 @@ body {
   width: 60px;
   height: 60px;
 }
-.pagination__item:hover {
+.pagination__item:not(.pagination__item--points):not(
+    .pagination__item-first
+  ):hover {
   background-color: #68a2ca;
 }
 
-.pagination__item:focus {
+.pagination__item:not(.pagination__item--points):not(
+    .pagination__item-first
+  ):focus {
   background-color: #68a2ca;
 }
 
-.pagination__item:active,
-.pagination__link:active {
+.pagination__item:not(.pagination__item--points):not(
+    .pagination__item-first
+  ):active,
+.pagination__link:not(.pagination__item--points):not(
+    .pagination__link-first
+  ):active {
   color: rgba(255, 255, 255, 0.3);
 }
 .pagination__item-first {
