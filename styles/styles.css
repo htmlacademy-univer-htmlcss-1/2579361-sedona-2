@@ -236,6 +236,23 @@ body {
   margin: 0;
   text-align: center;
 }
+.about__features_title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.about__features li:first-child .about__features_title::after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.about__features li:last-child .about__features_title::after {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .about__features_subtitle {
   color: #333;
   font-size: 18px;
@@ -516,6 +533,12 @@ body {
   padding: 0;
   margin: 8px 0 40px 0;
 }
+.breadcrumbs__navigation img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
 .breadcrumbs__link {
   color: #fff;
   font-size: 16px;
