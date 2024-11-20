@@ -19,11 +19,11 @@
         </a>
         <ul class="nav__menu">
           <li class="nav__link">
-            <a class="link_nav" href="index.html">Главная</a>
+            <a class="link_nav active" href="index.html">Главная</a>
           </li>
           <li class="nav__link"><a class="link_nav" href="#">О Седоне</a></li>
           <li class="nav__link">
-            <a class="link_nav" href="catalog.html">Гостиницы</a>
+            <a class="link_nav active" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -66,6 +66,14 @@
                 width="13"
                 height="15"
             /></a>
+          </li>
+          <li class="breadcrumbs__item">
+            <img
+              src="./images/icons/icon_arrow.svg"
+              alt="Логотип стрелочка"
+              width="6.39"
+              height="9.9"
+            />
           </li>
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="catalog.html">Гостиницы</a>
@@ -203,18 +211,20 @@
               alt="Картинка отеля Amara Resort & Spa"
             />
             <h3 class="catalog__hotel_name">Amara Resort & Spa</h3>
-            <div class="catalog__hotel_info">
-              <p class="catalog__hotel_type">Гостиница</p>
-              <p class="catalog__hotel_price">От 4000 ₽</p>
-            </div>
-            <div class="buttons__card">
-              <a href="#" class="btn details__button">Подробнее</a>
-              <button class="btn favorites__button" type="button">
-                В избранное
-              </button>
-            </div>
+            <p class="catalog__hotel_type">Гостиница</p>
+            <p class="catalog__hotel_price">От 4000 ₽</p>
+            <a href="#" class="btn details__button">Подробнее</a>
+            <button class="btn favorites__button" type="button">
+              В избранное
+            </button>
             <p class="catalog__hotel_raiting">Рейтинг: 8.5</p>
-            <p class="catalog__hotel_stars">★★★</p>
+            <div class="catalog__hotel_stars">
+              <p class="visually-hidden">Отель 4 звезды</p>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
           </li>
 
           <li class="catalog__item">
@@ -226,18 +236,20 @@
               alt="Картинка отеля Villas at Poco Diablo"
             />
             <h3 class="catalog__hotel_name">Villas at Poco Diablo</h3>
-            <div class="catalog__hotel_info">
-              <p class="catalog__hotel_type">Гостиница</p>
-              <p class="catalog__hotel_price">От 5000 ₽</p>
-            </div>
-            <div class="buttons__card">
-              <a href="#" class="btn details__button">Подробнее</a>
-              <button class="btn favorites__button btn__active" type="button">
-                В избранном
-              </button>
-            </div>
+            <p class="catalog__hotel_type">Гостиница</p>
+            <p class="catalog__hotel_price">От 5000 ₽</p>
+            <a href="#" class="btn details__button">Подробнее</a>
+            <button class="btn favorites__button btn__active" type="button">
+              В избранном
+            </button>
             <p class="catalog__hotel_raiting">Рейтинг: 9.2</p>
-            <p class="catalog__hotel_stars">★★★</p>
+            <div class="catalog__hotel_stars">
+              <p class="visually-hidden">Отель 4 звезды</p>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
           </li>
 
           <li class="catalog__item">
@@ -249,18 +261,19 @@
               alt="Картинка отеля Desert Quail Inn"
             />
             <h3 class="catalog__hotel_name">Desert Quail Inn</h3>
-            <div class="catalog__hotel_info">
-              <p class="catalog__hotel_type">Гостиница</p>
-              <p class="catalog__hotel_price">От 2500 ₽</p>
-            </div>
-            <div class="buttons__card">
-              <a href="#" class="btn details__button">Подробнее</a>
-              <button class="btn favorites__button" type="button">
-                В избранное
-              </button>
-            </div>
+            <p class="catalog__hotel_type">Гостиница</p>
+            <p class="catalog__hotel_price">От 2500 ₽</p>
+            <a href="#" class="btn details__button">Подробнее</a>
+            <button class="btn favorites__button" type="button">
+              В избранное
+            </button>
             <p class="catalog__hotel_raiting">Рейтинг: 6.9</p>
-            <p class="catalog__hotel_stars">★★★</p>
+            <div class="catalog__hotel_stars">
+              <p class="visually-hidden">Отель 3 звезды</p>
+              <span class="star"></span>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
           </li>
 
           <li class="catalog__item">
@@ -272,18 +285,18 @@
               alt="Картинка отеля GreenTree Inn"
             />
             <h3 class="catalog__hotel_name">GreenTree Inn</h3>
-            <div class="catalog__hotel_info">
-              <p class="catalog__hotel_type">Гостиница</p>
-              <p class="catalog__hotel_price">От 1500 ₽</p>
-            </div>
-            <div class="buttons__card">
-              <a href="#" class="btn details__button">Подробнее</a>
-              <button class="btn favorites__button" type="button">
-                В избранное
-              </button>
-            </div>
+            <p class="catalog__hotel_type">Гостиница</p>
+            <p class="catalog__hotel_price">От 1500 ₽</p>
+            <a href="#" class="btn details__button">Подробнее</a>
+            <button class="btn favorites__button" type="button">
+              В избранное
+            </button>
             <p class="catalog__hotel_raiting">Рейтинг: 5.0</p>
-            <p class="catalog__hotel_stars">★★★</p>
+            <div class="catalog__hotel_stars">
+              <p class="visually-hidden">Отель 2 звезды</p>
+              <span class="star"></span>
+              <span class="star"></span>
+            </div>
           </li>
         </ul>
 
