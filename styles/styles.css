@@ -1120,9 +1120,8 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
-  padding: 0;
+  padding: 0 0 64px 0;
   margin: 0;
-  margin-bottom: 64px;
 }
 
 .button__close_modal {
@@ -1143,8 +1142,10 @@ body {
 .arrival__container,
 .departure__container {
   margin: 0;
-  padding: 0;
+  padding: 0 0 4px 0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .arrival__date,
 .departure__date,
@@ -1156,7 +1157,7 @@ body {
 }
 .modal__input {
   display: flex;
-  width: 440px;
+  width: 400px;
   padding: 12px 20px;
   background-color: #f2f2f2;
   border: transparent;
@@ -1175,11 +1176,16 @@ body {
 .arrival__subtitle,
 .departure__subtitle {
   font-size: 16px;
-  width: 440px;
+  max-width: 440px;
+  margin: 0;
+  padding: 0 0 23px 157px;
 }
 
 .guest__container {
   display: flex;
+  padding: 0 0 48px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .adults__group,
@@ -1187,6 +1193,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .children__input,
@@ -1197,6 +1204,9 @@ body {
 }
 
 .tooltip {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .tooltip__toggle {
