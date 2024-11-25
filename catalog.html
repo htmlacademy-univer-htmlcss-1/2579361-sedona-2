@@ -120,22 +120,30 @@
 
           <fieldset class="filter__price">
             <legend class="filter__price_legend">Стоимость, ₽:</legend>
-            <label for="min-price">От</label>
-            <input
-              name="min-price"
-              id="min-price"
-              type="number"
-              min="0"
-              value="0"
-            />
-            <label for="max-price">До</label>
-            <input
-              name="max-price"
-              id="max-price"
-              type="number"
-              max="9000"
-              value="9000"
-            />
+            <ul class="filter__price_inputs">
+              <li class="price-input">
+                <label for="min-price" class="range__item">от</label>
+                <input
+                  class="input input-min"
+                  name="min-price"
+                  id="min-price"
+                  type="number"
+                  min="0"
+                  value="0"
+                />
+              </li>
+              <li class="price-input">
+                <label for="max-price" class="range__item">до</label>
+                <input
+                  class="input input-max"
+                  name="max-price"
+                  id="max-price"
+                  type="number"
+                  max="9000"
+                  value="9000"
+                />
+              </li>
+            </ul>
           </fieldset>
 
           <div class="filter__buttons">

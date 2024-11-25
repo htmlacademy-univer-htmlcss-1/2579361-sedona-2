@@ -617,7 +617,49 @@ body {
 .filter__price {
   margin: 0 0 0 140px;
 }
+.filter__price_inputs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 2px;
+}
+.price-input {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
 
+.input {
+  font-weight: 700;
+  line-height: 24px;
+  width: 103px;
+  height: 24px;
+  padding: 12px 20px;
+  border: transparent;
+  font-size: 18px;
+  outline: 0;
+  background-color: #f2f2f2;
+}
+
+.input-min {
+  border-radius: 4px 0 0 4px;
+}
+
+.input-max {
+  border-radius: 0 4px 4px 0;
+}
+
+.range__item {
+  position: absolute;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.3);
+  top: 11px;
+  left: 100px;
+}
 .filter__buttons {
   display: flex;
   flex-direction: column;
@@ -645,7 +687,7 @@ body {
   line-height: 24px;
 }
 .filter__house label {
-  color: var(--basic-white, #fff);
+  color: var(#fff);
   font-size: 18px;
   font-weight: 400;
   line-height: 23px;
@@ -655,6 +697,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  padding-bottom: 32px;
 }
 .catalog {
   background-color: #fff;
