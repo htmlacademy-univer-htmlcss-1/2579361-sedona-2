@@ -1139,7 +1139,19 @@ body {
   border: none;
   cursor: pointer;
 }
+.button__close_modal:hover {
+  background-color: #e6e6e6;
+}
 
+.button__close_modal:focus {
+  background-color: #e6e6e6;
+  border: 2px solid #83b3d3;
+  box-sizing: border-box;
+}
+
+.button__close_modal:active {
+  background-color: #e6e6e6;
+}
 .arrival__container,
 .departure__container {
   margin: 0;
