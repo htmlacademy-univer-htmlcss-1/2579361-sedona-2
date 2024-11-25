@@ -2,7 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>HTML Academy: Седона</title>
+    <title>Гостиницы</title>
+    <link rel="icon" href="/favicon-32x32.png" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -48,7 +49,7 @@
           /></a>
         </li>
         <li class="header__action">
-          <a class="btn header__btn" href="#">Хочу сюда!</a>
+          <a class="btn header__btn" href="modal.html">Хочу сюда!</a>
         </li>
       </ul>
     </header>
@@ -120,22 +121,36 @@
 
           <fieldset class="filter__price">
             <legend class="filter__price_legend">Стоимость, ₽:</legend>
-            <label for="min-price">От</label>
-            <input
-              name="min-price"
-              id="min-price"
-              type="number"
-              min="0"
-              value="0"
-            />
-            <label for="max-price">До</label>
-            <input
-              name="max-price"
-              id="max-price"
-              type="number"
-              max="9000"
-              value="9000"
-            />
+            <ul class="filter__price_inputs">
+              <li class="price-input">
+                <label for="min-price" class="range__item">от</label>
+                <input
+                  class="input input-min"
+                  name="min-price"
+                  id="min-price"
+                  type="number"
+                  min="0"
+                  value="0"
+                />
+              </li>
+              <li class="price-input">
+                <label for="max-price" class="range__item">до</label>
+                <input
+                  class="input input-max"
+                  name="max-price"
+                  id="max-price"
+                  type="number"
+                  max="9000"
+                  value="9000"
+                />
+              </li>
+            </ul>
+            <div class="price__slider">
+              <div class="slider__bar">
+                <button class="slider__toggle toggle__min"></button>
+                <button class="slider__toggle toggle__max"></button>
+              </div>
+            </div>
           </fieldset>
 
           <div class="filter__buttons">
