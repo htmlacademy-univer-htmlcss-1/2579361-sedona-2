@@ -8,7 +8,67 @@
   </head>
   <body>
     <div class="modal__container">
-      <section></section>
+      <section class="modal__content">
+        <h1 class="modal__title">Поиск гостиницы в Седоне</h1>
+        <button class="button__close_modal">
+          <span class="visually-hidden">Закрыть модальное окно</span>
+        </button>
+
+        <form class="modal__form" action="https://echo.htmlacademy.ru/">
+          <p class="arrival__container">
+            <label class="arrival__date" for="arrival-date">Дата заезда:</label>
+            <input
+              class="arrival__input"
+              id="arrival-date"
+              name="arrival-date"
+              type="text"
+              placeholder="Укажите дату"
+            />
+          </p>
+          <p class="arrival__subtitle">Мы не можем отправить вас в прошлое.</p>
+
+          <p class="departure__container">
+            <label class="departure__date" for="departure-date"
+              >Дата выезда:</label
+            >
+            <input
+              class="departure__input"
+              id="departure-date"
+              name="departure-date"
+              type="text"
+              placeholder="Укажите дату"
+            />
+          </p>
+          <p class="departure__subtitle">
+            На эти даты есть свободные номера. Пока есть.
+          </p>
+
+          <div class="guest__container">
+            <p class="adults__group">
+              <label class="adults__num" for="adults-num">Взрослые:</label>
+              <input
+                class="adults__input"
+                id="adults-num"
+                name="adults-num"
+                type="number"
+                placeholder="2"
+              />
+            </p>
+            <p class="children__group">
+              <label class="children__num" for="children-num">Дети:</label>
+              <input
+                class="children__input"
+                id="children-num"
+                name="children-num"
+                type="number"
+                placeholder="2"
+              />
+            </p>
+          </div>
+        </form>
+
+        <button class="btn modal__search_button" type="submit">Найти</button>
+      </section>
     </div>
   </body>
 </html>
