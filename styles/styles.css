@@ -660,6 +660,32 @@ body {
   top: 11px;
   left: 100px;
 }
+.price__slider {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  width: 287px;
+}
+
+.slider__toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle__min {
+  top: -8px;
+}
+
+.toggle__max {
+  top: -8px;
+  right: 61px;
+}
 .filter__buttons {
   display: flex;
   flex-direction: column;
