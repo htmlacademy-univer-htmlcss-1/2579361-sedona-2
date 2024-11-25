@@ -1102,6 +1102,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+  margin: 0 auto;
 }
 
 .modal__content {
@@ -1202,11 +1203,13 @@ body {
   height: 48px;
   box-sizing: border-box;
 }
-
+.children__input {
+  margin: 0 0 0 82px;
+}
 .tooltip {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 367px;
+  left: 467px;
 }
 
 .tooltip__toggle {
