@@ -1105,11 +1105,11 @@ body {
 }
 
 .modal__content {
+  position: relative;
   display: flex;
   margin: 0 auto;
   padding: 64px 70px;
   flex-direction: column;
-  width: 717px;
   border-radius: 30px;
   background-color: #fff;
   box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
