@@ -1196,8 +1196,25 @@ body {
   padding: 0;
   margin: 0;
   display: block;
+  cursor: pointer;
+}
+.tooltip__text {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 15px 18px 18px 22px;
+  border-radius: 10px;
+  width: 216px;
+  box-shadow: 0 15px 30px 0 #0000004d;
+  display: none;
 }
 
+.tooltip__toggle:hover + .tooltip__text,
+.tooltip__toggle:focus + .tooltip__text {
+  display: block;
+}
 .modal__search_button {
   display: flex;
   width: 577px;
