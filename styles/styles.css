@@ -1167,6 +1167,19 @@ body {
   font-weight: 700;
   color: #000;
 }
+.modal__input[type="text"] {
+  background-image: url(../images/modal/modal_date.svg);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+.modal__input[type="number"] {
+  background-image: url(../images/modal/minus.svg),
+    url(../images/modal/plus.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 13px, 50px;
+  text-align: center;
+}
 .modal__input::placeholder {
   color: #000;
 }
